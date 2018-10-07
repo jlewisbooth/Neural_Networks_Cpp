@@ -559,34 +559,5 @@ int main() {
 
 	cout << "Test Accuracy : " << (test_Accuracy*100.0) / (double)seperateIndex[2] << "%" << endl;
 	
-	/*	
-	vector<double> input = {1,2,3,4};
-
-	cout << "==== Feed Forward ====" << endl;
-
-	my_Net.feedForward(input);
-	
-	cout << "First Layer: "; 
-		
-	my_Net.printLayerVals(0);
-
-	cout << "Weights for top neuron in Output Layer : ";
-	my_Net.printNeuronWeights(2,0);
-
-	cout << "Second Layer: "; 
-		
-	my_Net.printLayerVals(1);
-
-	cout << "Third Layer: "; 
-		
-	my_Net.printLayerVals(2);
-
-	vector<double> output = {0,1};
-
-	cout << "==== Back Propagation ====" << endl;
-
-	my_Net.backProp(output);
-	
-	cout << "New Weights for top neuron in Output Layer : ";
-	my_Net.printNeuronWeights(2,0);*/
 }
+	
